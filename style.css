@@ -1,0 +1,63 @@
+* {
+  block
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 span {
+  color: white;
+  background-color: tomato;
+}
+
+#flexContainer {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+div.stooges {
+  border: solid 1px black;
+  background-color: tomato;
+  justify-content: center;
+  width: 100%;
+  margin: .25rem;
+  padding: 1rem;
+}
+
+div.stooges span{
+  display: block;
+  color: white;
+  align-items: center;
+}
+
+span.subject {
+  font-weight: bold;
+}
+
+#moe {
+  background-position: top left;
+}
+
+#larry {
+  background-position: top right;
+}
+
+#curly {
+  background-position: 50% 50%;
+}
+
+div.img {
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+  background-image: url(https://learndotresources.s3.amazonaws.com/workshop/5d82f73445ae900004652db3/three_stooges.jpg);
+  background-repeat: no-repeat;
+  background-size: 280%;
+  display: inline-block;
+  border-radius: 50px;
+}
